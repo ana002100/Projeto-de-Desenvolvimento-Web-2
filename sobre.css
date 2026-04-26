@@ -1,0 +1,70 @@
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FUNDO */
+.container_principal {
+    background-color: rgb(239, 174, 184);
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgb(245, 133, 152);
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+/* TÍTULO */
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* IMAGENS */
+.imagens-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* quebra no celular */
+    margin-top: 20px;
+}
+
+.imagem-box img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* EFEITO HOVER */
+.imagem-box img:hover {
+    transform: scale(1.05);
+}
+
+/* TEXTO */
+.texto-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.texto-container p {
+    font-size: 26px;
+    font-weight: bold;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgb(245, 133, 152);
+    padding: 20px;
+    margin-top: 40px;
+}
